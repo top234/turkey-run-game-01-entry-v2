@@ -1,0 +1,4 @@
+html, body { margin: 0; padding: 0; height: 100%; background: #2a1608; overflow: hidden; }
+#wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at 50% 30%, #4a2c12 0%, #241204 70%); }
+#game { width: min(100vw, 177.78vh); height: min(100vh, 56.25vw); display: block; border-radius: 6px; box-shadow: 0 0 60px rgba(0,0,0,.7); cursor: pointer; touch-action: none; }
+#status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
